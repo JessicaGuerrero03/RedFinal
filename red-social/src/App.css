@@ -1,10 +1,11 @@
 /* Global Styles */
+
 :root {
-  --primary-color: #2ea1b3;
-  --dark-color: #343a40;
+  --primary-color: #2eb356;
+  --dark-color: #889bad;
   --light-color: #f4f4f4;
-  --danger-color: #da3b4b;
-  --success-color: #28a745;
+  --danger-color: #da3baa;
+  --success-color: #3528a7;
 }
 
 * {
@@ -14,11 +15,11 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "sans-serif", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: rgb(151, 145, 145);
+  color: rgb(32, 26, 26);
 }
 
 a {
@@ -34,7 +35,9 @@ img {
   width: 100%;
 }
 
+
 /* Utilities */
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -44,7 +47,9 @@ img {
   margin-bottom: 3rem;
 }
 
+
 /* Text Styles*/
+
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
@@ -74,54 +79,72 @@ img {
   color: var(--dark-color);
 }
 
+
 /* Padding */
+
 .p {
   padding: 0.5rem;
 }
+
 .p-1 {
   padding: 1rem;
 }
+
 .p-2 {
   padding: 2rem;
 }
+
 .p-3 {
   padding: 3rem;
 }
+
 .py {
   padding: 0.5rem 0;
 }
+
 .py-1 {
   padding: 1rem 0;
 }
+
 .py-2 {
   padding: 2rem 0;
 }
+
 .py-3 {
   padding: 3rem 0;
 }
 
+
 /* Margin */
+
 .m {
   margin: 0.5rem;
 }
+
 .m-1 {
   margin: 1rem;
 }
+
 .m-2 {
   margin: 2rem;
 }
+
 .m-3 {
   margin: 3rem;
 }
+
 .my {
   margin: 0.5rem 0;
 }
+
 .my-1 {
   margin: 1rem 0;
 }
+
 .my-2 {
   margin: 2rem 0;
 }
+
 .my-3 {
   margin: 3rem 0;
 }
@@ -129,7 +152,7 @@ img {
 .btn {
   display: inline-block;
   background: var(--light-color);
-  color: #333;
+  color: rgb(51, 51, 51);
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
   border: none;
@@ -145,7 +168,7 @@ img {
   text-align: center;
   margin: 0.3rem;
   background: var(--light-color);
-  color: #333;
+  color: rgb(44, 1, 19);
 }
 
 .alert {
@@ -153,7 +176,7 @@ img {
   margin: 1rem 0;
   opacity: 0.9;
   background: var(--light-color);
-  color: #333;
+  color: rgb(31, 2, 2);
 }
 
 .btn-primary,
@@ -177,7 +200,7 @@ img {
 .badge-dark,
 .alert-dark {
   background: var(--dark-color);
-  color: #fff;
+  color: rgb(8, 151, 161);
 }
 
 .btn-danger,
@@ -185,7 +208,7 @@ img {
 .badge-danger,
 .alert-danger {
   background: var(--danger-color);
-  color: #fff;
+  color: rgb(9, 20, 24);
 }
 
 .btn-success,
@@ -211,7 +234,7 @@ img {
 
 .bg-light,
 .badge-light {
-  border: #ccc solid 1px;
+  border: rgb(189, 123, 123) solid 1px;
 }
 
 .round-img {
@@ -220,11 +243,13 @@ img {
 
 .line {
   height: 1px;
-  background: #ccc;
+  background: rgb(168, 122, 122);
   margin: 1.5rem 0;
 }
 
+
 /* Overlay */
+
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -234,7 +259,9 @@ img {
   height: 100%;
 }
 
+
 /* Forms */
+
 .form .form-group {
   margin: 1.2rem 0;
 }
@@ -273,19 +300,23 @@ button {
 }
 
 .form .social-input i.fa-twitter {
-  color: #38a1f3;
+  color: #063a6b;
 }
+
 .form .social-input i.fa-facebook {
-  color: #3b5998;
+  color: #90d2db;
 }
+
 .form .social-input i.fa-instagram {
-  color: #3f729b;
+  color: #d68cbe;
 }
+
 .form .social-input i.fa-youtube {
   color: #c4302b;
 }
+
 .form .social-input i.fa-linkedin {
-  color: #0077b5;
+  color: #61d4a8;
 }
 
 .table th,
@@ -298,7 +329,9 @@ button {
   background: var(--light-color);
 }
 
+
 /* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -330,7 +363,9 @@ button {
   margin-right: 0.6rem;
 }
 
+
 /* Landing Page */
+
 .landing {
   position: relative;
   background: url("./img/showcase.jpg") no-repeat center center/cover;
@@ -338,7 +373,7 @@ button {
 }
 
 .landing-inner {
-  color: #fff;
+  color: rgb(167, 172, 123);
   height: 100%;
   width: 80%;
   margin: auto;
@@ -349,7 +384,9 @@ button {
   text-align: center;
 }
 
+
 /* Profiles Page */
+
 .profile {
   display: grid;
   grid-template-columns: 2fr 4fr 2fr;
@@ -360,14 +397,12 @@ button {
   margin-bottom: 1rem;
 }
 
+
 /* Profile Page */
+
 .profile-grid {
   display: grid;
-  grid-template-areas:
-    "top top"
-    "about about"
-    "exp edu"
-    "github github";
+  grid-template-areas: "top top" "about about" "exp edu" "github github";
   grid-gap: 1rem;
 }
 
@@ -418,15 +453,15 @@ button {
   margin-bottom: 1rem;
 }
 
-.profile-exp > div,
-.profile-edu > div {
+.profile-exp>div,
+.profile-edu>div {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: #ccc 1px dotted;
+  border-bottom: rgb(110, 108, 108) 1px dotted;
 }
 
-.profile-exp > div:last-child,
-.profile-edu > div:last-child {
+.profile-exp>div:last-child,
+.profile-edu>div:last-child {
   border: 0;
 }
 
@@ -443,17 +478,19 @@ button {
   display: flex;
 }
 
-.profile-github .repo > div:first-child {
+.profile-github .repo>div:first-child {
   flex: 7;
   flex-basis: 70%;
 }
 
-.profile-github > div:last-child {
+.profile-github>div:last-child {
   flex: 3;
   flex-basis: 20%;
 }
 
+
 /* Posts Page */
+
 .post-form .post-form-header {
   background: var(--primary-color);
   padding: 0.5rem;
@@ -466,7 +503,7 @@ button {
   align-items: center;
 }
 
-.post > div:first-child {
+.post>div:first-child {
   text-align: center;
 }
 
@@ -488,90 +525,71 @@ button {
   margin-bottom: 0.5rem;
 }
 
+
 /* Mobile Styles */
+
 @media (max-width: 700px) {
   .container {
-    margin-top: 8rem;
+      margin-top: 8rem;
   }
-
   .hide-sm {
-    display: none;
+      display: none;
   }
-
   /* Text Styles */
   .x-large {
-    font-size: 3rem;
+      font-size: 3rem;
   }
-
   .large {
-    font-size: 2rem;
+      font-size: 2rem;
   }
-
   .lead {
-    font-size: 1rem;
+      font-size: 1rem;
   }
-
   /* Navbar */
   .navbar {
-    display: block;
-    text-align: center;
+      display: block;
+      text-align: center;
   }
-
   .navbar ul {
-    text-align: center;
-    justify-content: center;
+      text-align: center;
+      justify-content: center;
   }
-
   .navbar h1 {
-    margin-bottom: 1rem;
+      margin-bottom: 1rem;
   }
-
   .navbar .welcome {
-    display: none;
+      display: none;
   }
-
   /* Profiles Page */
   .profile {
-    grid-template-columns: 1fr;
-    text-align: center;
+      grid-template-columns: 1fr;
+      text-align: center;
   }
-
   .profile ul {
-    display: none;
+      display: none;
   }
-
   /* Profile Page */
-
   .profile-top img,
   .profile img {
-    width: 200px;
-    margin: auto;
+      width: 200px;
+      margin: auto;
   }
-
   .profile-grid {
-    grid-template-areas:
-      "top"
-      "about"
-      "exp"
-      "edu"
-      "github";
+      grid-template-areas: "top" "about" "exp" "edu" "github";
   }
-
   .profile-about .skills {
-    flex-direction: column;
+      flex-direction: column;
   }
-
   .dash-buttons a {
-    display: block;
-    width: 100%;
-    margin-bottom: 0.2rem;
+      display: block;
+      width: 100%;
+      margin-bottom: 0.2rem;
   }
-
   .post {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
   }
   .post a,
   .post button {
-    padding: 0.3rem 0.4rem;
+      padding: 0.3rem 0.4rem;
   }
 }
